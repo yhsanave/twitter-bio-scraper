@@ -1,6 +1,6 @@
 # Instructions
 
-1. Go to the [Twitter API Playground](https://oauth-playground.glitch.me/?id=usersIdFollowing&params=%28%27id%21%273337436057%27%7Euser.fields%21%27url%2Centities%27%7Emax_results%21%27500%27%7Epagination_token%21%2707NHRQTJAK3HEZZZ%27%29_) page and enter your user id in the `id` field. This should be a long number, not your handle/username. You can use [this site](https://www.codeofaninja.com/tools/find-twitter-id/) to get your id if you don't know it.
+1. Go to the [Twitter API Playground](https://oauth-playground.glitch.me/?id=usersIdFollowing&params=%28%27id%21%27%27%7Euser.fields%21%27entities%27%7Emax_results%21%27500%27%7Epagination_token%21%27%27%29_) page and enter your user id in the `id` field. This should be a long number, not your handle/username. You can use [this site](https://www.codeofaninja.com/tools/find-twitter-id/) to get your id if you don't know it.
    
 2. Hit run and grant oauth permissions to the app if prompted. The page will probably run very slow since it is rendering a lot of data, you can get it a bit faster by decreasing the `max_results` value, but you can only do 15 requests every 15 minutes so if you have too many follows, you may have to wait. You can also grab the response out of devtools if you know what that means, but you will have to reformat it later.
 
