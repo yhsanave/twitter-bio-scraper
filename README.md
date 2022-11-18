@@ -24,7 +24,6 @@
 {
   "data": [
     {
-      "url": "https://t.co/vGDjiIH5ni",
       "id": "14343311",
       "entities": {
         "url": {
